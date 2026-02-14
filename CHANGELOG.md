@@ -6,6 +6,10 @@
 - feat(android): `enableFilterTouches()` / `disableFilterTouches()` to toggle `filterTouchesWhenObscured`
 - feat(android): `Window.Callback` interception for real-time overlay detection
 - feat(ios): safe no-op implementation (iOS does not allow third-party overlays)
+- feat(web): safe no-op implementation (browsers enforce same-origin policy)
+- feat(macos): safe no-op implementation (desktop overlapping windows are by design)
+- feat(windows): safe no-op implementation (desktop overlapping windows are by design)
+- feat(linux): safe no-op implementation (desktop overlapping windows are by design)
 - feat: `TapjackSnapshot` data class with `isOverlayDetected`, `isPartialOverlay`, `isTouchFilterEnabled`
 - feat: `tapjackStream` for real-time overlay state changes
 - feat: `startListening()` / `stopListening()` API
