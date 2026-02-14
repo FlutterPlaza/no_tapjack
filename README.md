@@ -1,5 +1,7 @@
 # no_tapjack
 
+[![CI](https://github.com/FlutterPlaza/no_tapjack/actions/workflows/ci.yml/badge.svg)](https://github.com/FlutterPlaza/no_tapjack/actions/workflows/ci.yml)
+
 Flutter plugin to detect **tapjacking** and **overlay attacks**. Part of the [FlutterPlaza Security Suite](https://flutterplaza.com).
 
 Tapjacking occurs when a malicious app draws a transparent or partially transparent overlay on top of your app, tricking users into tapping on unintended targets. This plugin detects such attacks and optionally blocks touch events when the app is obscured.
