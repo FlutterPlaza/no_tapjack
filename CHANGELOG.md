@@ -1,3 +1,9 @@
+## 0.1.1
+
+- feat: add Swift Package Manager support for iOS
+- feat: add GitHub Actions workflows for CI and pub.dev publishing
+- docs: add dartdoc comments to public API
+
 ## 0.1.0
 
 - feat: initial release

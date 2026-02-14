@@ -7,6 +7,7 @@ import 'package:no_tapjack/tapjack_snapshot.dart';
 
 import 'no_tapjack_platform_interface.dart';
 
+/// Android/iOS implementation of [NoTapjackPlatform] using platform channels.
 class MethodChannelNoTapjack extends NoTapjackPlatform {
   @visibleForTesting
   final methodChannel = const MethodChannel(tapjackMethodChannel);

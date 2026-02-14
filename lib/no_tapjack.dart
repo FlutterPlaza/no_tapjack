@@ -2,10 +2,15 @@ import 'package:no_tapjack/tapjack_snapshot.dart';
 
 import 'no_tapjack_platform_interface.dart';
 
+/// Main entry point for the no_tapjack plugin.
+///
+/// Use [instance] to obtain a singleton and call [startListening] to begin
+/// monitoring for overlay attacks.
 class NoTapjack implements NoTapjackPlatform {
   final _instancePlatform = NoTapjackPlatform.instance;
   NoTapjack._();
 
+  /// Returns a [NoTapjack] instance bound to the current platform.
   static NoTapjack get instance => NoTapjack._();
 
   @override
