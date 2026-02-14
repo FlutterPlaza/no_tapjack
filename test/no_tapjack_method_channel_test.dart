@@ -168,8 +168,7 @@ void main() {
         isTouchFilterEnabled: true,
       );
       final string = snapshot.toString();
-      expect(
-          string,
+      expect(string,
           'TapjackSnapshot(\nisOverlayDetected: true, \nisPartialOverlay: false, \nisTouchFilterEnabled: true\n)');
     });
   });

@@ -7,8 +7,9 @@ import 'package:no_tapjack/tapjack_snapshot.dart';
 void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
 
-  testWidgets('startListening and tapjackStream test',
-      (WidgetTester tester) async {
+  testWidgets('startListening and tapjackStream test', (
+    WidgetTester tester,
+  ) async {
     final plugin = NoTapjack.instance;
     await plugin.startListening();
 

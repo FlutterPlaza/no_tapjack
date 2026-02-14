@@ -35,8 +35,8 @@ void main() {
 
   group('NoTapjackPlatform', () {
     test('default instance should be MethodChannelNoTapjack', () {
-      expect(NoTapjackPlatform.instance,
-          isInstanceOf<MethodChannelNoTapjack>());
+      expect(
+          NoTapjackPlatform.instance, isInstanceOf<MethodChannelNoTapjack>());
     });
 
     test('tapjackStream should not throw UnimplementedError when accessed', () {
@@ -53,33 +53,28 @@ void main() {
       expect(platform.stopListening(), completes);
     });
 
-    test(
-        'enableFilterTouches should not throw UnimplementedError when called',
+    test('enableFilterTouches should not throw UnimplementedError when called',
         () async {
       expect(platform.enableFilterTouches(), completes);
     });
 
-    test(
-        'disableFilterTouches should not throw UnimplementedError when called',
+    test('disableFilterTouches should not throw UnimplementedError when called',
         () async {
       expect(platform.disableFilterTouches(), completes);
     });
 
-    test(
-        'base NoTapjackPlatform.tapjackStream throws UnimplementedError', () {
+    test('base NoTapjackPlatform.tapjackStream throws UnimplementedError', () {
       final basePlatform = BaseNoTapjackPlatform();
       expect(() => basePlatform.tapjackStream, throwsUnimplementedError);
     });
 
-    test(
-        'base NoTapjackPlatform.startListening() throws UnimplementedError',
+    test('base NoTapjackPlatform.startListening() throws UnimplementedError',
         () {
       final basePlatform = BaseNoTapjackPlatform();
       expect(() => basePlatform.startListening(), throwsUnimplementedError);
     });
 
-    test(
-        'base NoTapjackPlatform.stopListening() throws UnimplementedError',
+    test('base NoTapjackPlatform.stopListening() throws UnimplementedError',
         () {
       final basePlatform = BaseNoTapjackPlatform();
       expect(() => basePlatform.stopListening(), throwsUnimplementedError);

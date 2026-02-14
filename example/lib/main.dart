@@ -143,20 +143,16 @@ class _MyAppState extends State<MyApp> {
   Widget _statusRow(String label, bool active) {
     return Row(
       children: [
-        Icon(
-          Icons.circle,
-          size: 12,
-          color: active ? Colors.red : Colors.green,
-        ),
+        Icon(Icons.circle, size: 12, color: active ? Colors.red : Colors.green),
         const SizedBox(width: 8),
         Text(label, style: Theme.of(context).textTheme.bodyLarge),
         const Spacer(),
         Text(
           active ? 'Yes' : 'No',
           style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                fontWeight: FontWeight.bold,
-                color: active ? Colors.red : Colors.green,
-              ),
+            fontWeight: FontWeight.bold,
+            color: active ? Colors.red : Colors.green,
+          ),
         ),
       ],
     );
