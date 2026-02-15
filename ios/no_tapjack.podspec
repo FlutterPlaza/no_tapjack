@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'no_tapjack'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Flutter plugin to detect tapjacking and overlay attacks.'
   s.description      = <<-DESC
 Flutter plugin to detect tapjacking and overlay attacks. Monitors for malicious overlays and filters obscured touch events.

@@ -6,6 +6,10 @@ Flutter plugin to detect **tapjacking** and **overlay attacks**. Part of the [Fl
 
 Tapjacking occurs when a malicious app draws a transparent or partially transparent overlay on top of your app, tricking users into tapping on unintended targets. This plugin detects such attacks and optionally blocks touch events when the app is obscured.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/FlutterPlaza/no_tapjack/main/doc/screenshot/img.png" alt="no_tapjack example app screenshot" width="300"/>
+</p>
+
 ## Features
 
 | Feature | Android | iOS | Web | macOS | Windows | Linux |

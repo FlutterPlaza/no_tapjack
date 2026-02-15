@@ -1,6 +1,6 @@
 name: no_tapjack
 description: Flutter plugin to detect tapjacking and overlay attacks. Monitors for malicious overlays and filters obscured touch events.
-version: 0.1.1
+version: 0.1.2
 homepage: https://flutterplaza.com
 repository: https://github.com/FlutterPlaza/no_tapjack
 issue_tracker: https://github.com/FlutterPlaza/no_tapjack/issues

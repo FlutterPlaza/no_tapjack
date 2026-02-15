@@ -1,3 +1,7 @@
+## 0.1.2
+
+- docs: add screenshot to README
+
 ## 0.1.1
 
 - feat: add Swift Package Manager support for iOS
